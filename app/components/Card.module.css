@@ -1,0 +1,29 @@
+.headRight {
+    right: 0;
+}
+.headRight::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    left: -12px;
+    top: 7px;
+    width: 36px;
+    height: 47px;
+    background: inherit;
+    transform: rotate(45deg);
+}
+
+.headLeft {
+    left: 0;
+}
+.headLeft::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    right: -12px;
+    top: 7px;
+    width: 36px;
+    height: 47px;
+    background: inherit;
+    transform: rotate(-45deg);
+}
